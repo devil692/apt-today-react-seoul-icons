@@ -1,6 +1,14 @@
 # @apt.today/react-seoul-icons
 
+[![npm version](https://img.shields.io/npm/v/@apt.today/react-seoul-icons.svg?style=flat-square)](https://www.npmjs.com/package/@apt.today/react-seoul-icons)
+[![npm downloads](https://img.shields.io/npm/dm/@apt.today/react-seoul-icons.svg?style=flat-square)](https://www.npmjs.com/package/@apt.today/react-seoul-icons)
+[![GitHub stars](https://img.shields.io/github/stars/myriky/apt-today-seoul-icons.svg?style=flat-square)](https://github.com/myriky/apt-today-seoul-icons)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-Custom-orange.svg?style=flat-square)](./LICENSE)
+
 서울시 25개 행정구 아이콘을 React 컴포넌트로 제공하는 라이브러리입니다.
+
+🌐 [데모 페이지](https://myriky.github.io/apt-today-seoul-icons/)
 
 ## 설치
 
@@ -131,6 +139,18 @@ function Example() {
 본 라이브러리의 소스 코드는 MIT 라이선스를 따릅니다.
 
 자세한 내용은 [LICENSE](./LICENSE) 파일을 참고하세요
+
+## About apt.today
+
+이 라이브러리는 [apt.today](https://apt.today) 프로젝트의 일부입니다.
+
+**apt.today**는 부동산 정보를 제공하는 서비스로, 서울특별시 지자체별 고시공고문, 모집공고문, 토지거래허가내역을 비롯한 다양한 아파트 관련 정보를 확인 할 수 있는 플랫폼입니다.
+
+본 아이콘 라이브러리는 apt.today 서비스에서 서울시 각 행정구의 데이터를 시각적으로 표현하기 위해 개발되었으며, 누구나 자유롭게 사용할 수 있도록 오픈소스로 공개되었습니다.
+
+### 관련 프로젝트
+
+- 🏢 [apt.today](https://apt.today) - 손 쉽게 찾는 부동산 정보, 오늘의 아파트
 
 ## 기여
 

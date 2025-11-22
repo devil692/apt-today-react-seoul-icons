@@ -44,5 +44,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/myriky/apt-today-seoul-icons.git"
-  }
+  },
+  "homepage": "https://myriky.github.io/apt-today-seoul-icons/"
 }
